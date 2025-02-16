@@ -1,0 +1,26 @@
+adder_add_sum4*16+adder_add_sum3*8+adder_add_sum2*4+adder_add_sum1*2+adder_add_sum0
+adder_add_sum3 = adder_xor3 + adder_add_cout2 - 2 * adder_xor3 * adder_add_cout2
+adder_xor3 = a3 + b3 - 2 * a3 * b3
+adder_add_sum4 = adder_or3 + adder_and9 - adder_or3 * adder_and9
+adder_or3 = adder_and7 + adder_and8 - adder_and7 * adder_and8
+adder_and9 = a3 * b3
+adder_and8 = adder_add_cout2 * b3
+adder_and7 = adder_add_cout2 * a3
+adder_add_sum2 = adder_xor2 + adder_add_cout1 - 2 * adder_xor2 * adder_add_cout1
+adder_xor2 = a2 + b2 - 2 * a2 * b2
+adder_add_cout2 = adder_or2 + adder_and6 - adder_or2 * adder_and6
+adder_or2 = adder_and4 + adder_and5 - adder_and4 * adder_and5
+adder_and6 = a2 * b2
+adder_and5 = adder_add_cout1 * b2
+adder_and4 = adder_add_cout1 * a2
+adder_add_sum1 = adder_xor1 + adder_add_cout0 - 2 * adder_xor1 * adder_add_cout0
+adder_xor1 = a1 + b1 - 2 * a1 * b1
+adder_add_cout1 = adder_or1 + adder_and3 - adder_or1 * adder_and3
+adder_or1 = adder_and1 + adder_and2 - adder_and1 * adder_and2
+adder_and3 = a1 * b1
+adder_and2 = adder_add_cout0 * b1
+adder_and1 = adder_add_cout0 * a1
+adder_add_sum0 = a0 + b0 - 2 * a0 * b0
+adder_add_cout0 = adder_and0
+adder_and0 = a0 * b0 
+
